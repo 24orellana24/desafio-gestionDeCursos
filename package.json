@@ -1,0 +1,20 @@
+{
+  "name": "desafio2---cursos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consultas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "pg": "^8.7.3",
+    "save": "^2.4.0"
+  }
+}
