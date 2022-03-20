@@ -57,7 +57,7 @@ async function eliminarCurso(id) {
     const result = await pool.query(`DELETE FROM cursos WHERE id = '${id}' RETURNING *;`);
     return result.rows[0].nombre;
   } catch (err) {
-    console.log(`Error en query eliminar:\n${err}`);
+    console.log(`Error en query eliminar:\n${err.code}`);
     return err.code;
   }
 }
